@@ -94,7 +94,7 @@ namespace webApiDay1.Controllers
             }
         #endregion
 
-        [HttpDelete]
+        [HttpDelete] 
         [Route("{id}")]
         #region Delete car
             public ActionResult Delete(int id)
